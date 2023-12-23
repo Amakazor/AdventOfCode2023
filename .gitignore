@@ -5,3 +5,5 @@
 /dotNET/*/obj
 /dotNET/*/bin
 /dotNET/.vs
+zig/*/zig-out/*
+zig/*/zig-cache/*
