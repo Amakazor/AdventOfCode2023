@@ -1,9 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
-using System.Linq;
-
-var lines = File.ReadAllLines("test_input_1.txt");
+﻿var lines = File.ReadAllLines("input.txt");
 
 var games = lines
     .Select(line => line.Split(": "))
